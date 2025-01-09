@@ -1,0 +1,36 @@
+[20-Nov-2024 10:13:41 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home2/pesgwebc/public_html/wp-content/themes/twentytwenty/functions.php:145
+Stack trace:
+#0 {main}
+  thrown in /home2/pesgwebc/public_html/wp-content/themes/twentytwenty/functions.php on line 145
+[22-Nov-2024 14:04:16 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home2/pesgwebc/public_html/wp-content/themes/twentytwenty/functions.php:145
+Stack trace:
+#0 {main}
+  thrown in /home2/pesgwebc/public_html/wp-content/themes/twentytwenty/functions.php on line 145
+[25-Nov-2024 21:41:43 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home2/pesgwebc/public_html/wp-content/themes/twentytwenty/functions.php:145
+Stack trace:
+#0 {main}
+  thrown in /home2/pesgwebc/public_html/wp-content/themes/twentytwenty/functions.php on line 145
+[05-Dec-2024 11:55:21 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home2/pesgwebc/public_html/wp-content/themes/twentytwenty/functions.php:145
+Stack trace:
+#0 {main}
+  thrown in /home2/pesgwebc/public_html/wp-content/themes/twentytwenty/functions.php on line 145
+[10-Dec-2024 12:22:25 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home2/pesgwebc/public_html/wp-content/themes/twentytwenty/functions.php:145
+Stack trace:
+#0 {main}
+  thrown in /home2/pesgwebc/public_html/wp-content/themes/twentytwenty/functions.php on line 145
+[18-Dec-2024 15:04:25 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home2/pesgwebc/public_html/wp-content/themes/twentytwenty/functions.php:145
+Stack trace:
+#0 {main}
+  thrown in /home2/pesgwebc/public_html/wp-content/themes/twentytwenty/functions.php on line 145
+[19-Dec-2024 15:35:20 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home2/pesgwebc/public_html/wp-content/themes/twentytwenty/functions.php:145
+Stack trace:
+#0 {main}
+  thrown in /home2/pesgwebc/public_html/wp-content/themes/twentytwenty/functions.php on line 145
+[23-Dec-2024 01:13:01 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home2/pesgwebc/public_html/wp-content/themes/twentytwenty/functions.php:145
+Stack trace:
+#0 {main}
+  thrown in /home2/pesgwebc/public_html/wp-content/themes/twentytwenty/functions.php on line 145
+[25-Dec-2024 05:53:26 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home2/pesgwebc/public_html/wp-content/themes/twentytwenty/functions.php:145
+Stack trace:
+#0 {main}
+  thrown in /home2/pesgwebc/public_html/wp-content/themes/twentytwenty/functions.php on line 145

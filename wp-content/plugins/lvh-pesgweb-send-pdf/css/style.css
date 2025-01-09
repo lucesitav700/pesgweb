@@ -1,0 +1,113 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 1rem 1rem 1rem;
+}
+
+.accordion-button {
+    background: linear-gradient(to bottom,#f5f5f5 0,#e8e8e8 100%)
+}
+.accordion-button {
+    color: #000;
+}
+.accordion-button:not(.collapsed) {
+    color: #000;
+}
+.custom-btn {
+    background: linear-gradient(to bottom,#337ab7 0,#265a88 100%);
+    color: #fff;
+    border: none;
+    padding: .5rem 1rem;
+    border-radius: .2rem;
+    width: 100%;
+}
+.custom-btn:hover{
+    background: #265a88;
+}
+.checkbox-inline {
+    margin: .3rem;
+}
+.checkbox-inline input{
+    margin-right: 5px;
+}
+.align-Bottom {
+    align-items: flex-end;
+}
+.radio-inline {
+    gap: 1rem;
+    display: flex;
+}
+.flex{
+    display: flex;
+    gap: 1rem;
+}
+@media (min-width: 769px) {
+    .with25 {
+        width: 25%;
+    } 
+    .with50 {
+        width: 50%;
+    } 
+    .with33 {
+        width: 33.3%;
+    } 
+    .custom-btn {
+        width: auto;
+    }
+
+}
+
+#success_submitt{
+    display: none;
+}
+#error_submitt{
+    display: none;
+}
+
+.loader-page {
+    position: fixed;
+    z-index: 25000;
+    background: rgb(255, 255, 255);
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:all .3s ease;
+  }
+  .loader-page::before {
+    content: "";
+    position: absolute;
+    border: 2px solid rgb(50, 150, 176);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border-left: 2px solid rgba(50, 150, 176,0);
+    border-top: 2px solid rgba(50, 150, 176,0);
+    animation: rotarload 1s linear infinite;
+    transform: rotate(0deg);
+  }
+  @keyframes rotarload {
+      0%   {transform: rotate(0deg)}
+      100% {transform: rotate(360deg)}
+  }
+  .loader-page::after {
+    content: "";
+    position: absolute;
+    border: 2px solid rgba(50, 150, 176,.5);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border-left: 2px solid rgba(50, 150, 176, 0);
+    border-top: 2px solid rgba(50, 150, 176, 0);
+    animation: rotarload 1s ease-out infinite;
+    transform: rotate(0deg);
+  }
+
+  #cargando{
+    display: none;
+  }
