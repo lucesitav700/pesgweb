@@ -97,6 +97,9 @@ function sendMail($rand_id_user, $rand_id_user_temp, $params){
 
    	//PATH FILE PDF WRITED
     $pdf_file = WP_CONTENT_DIR . '/uploads/send_pdf/new_web_claim_'.$rand_id_user.'.pdf'; //Ruta del archivo
+
+    write_log("pdf_file : ");
+    write_log($pdf_file);
     	
 	//PATH DIRECTORY FROM ATTACHMENT
 	$dir = WP_CONTENT_DIR . '/uploads/attachments/upload-files-temp_'.$rand_id_user_temp.'/';
@@ -105,13 +108,18 @@ function sendMail($rand_id_user, $rand_id_user_temp, $params){
 	$files = scandir($dir);
 	$array_attachment_file = getFilesToAttachment($pdf_file, $files, $dir);
 
+    write_log("array_attachment_file : ");
+    write_log($array_attachment_file);
+
+
     //DATA FOR SEND EMAIL
-    $to = "claims@pesgweb.com,hanley@hanseninfotech.com";
+    //$to = "claims@pesgweb.com,hanley@hanseninfotech.com";
+    $to = "lucesitav700@gmail.com";
     $headers = array('Content-Type: text/html; charset=UTF-8');
     $subject = 'PESG Web Claim';
     $message = getMessageHTML_dataForm($params); //'<h2>New web claim</h2>';
 
-
+    
 	//CALL FUNCTION WP MAIL FOR SEND PDF WRITED AND ATTACHMENT FILES BY USER
     wp_mail( $to, $subject, $message , $headers, $array_attachment_file);
     

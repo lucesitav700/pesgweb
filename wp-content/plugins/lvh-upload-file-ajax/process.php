@@ -55,7 +55,7 @@ function dcms_upload_file(){
                     'rand_id_user_mm'=> $rand_id_user,
                    /* 'message' => "ID session-->".$id_session."<-------The files was added successfully.--->content_directory->".
                     "$content_directory"."<---new name file---->".$new_name_file."<input type='hidden' id='rand_id_user' name='rand_id_user' value='".$rand_id_user."--->1111111'>´"*/
-                    'message' => 'The files was added successfully.'
+                    'message' => 'The files was added successfully.'.$rand_id_user
                 ];
                
             }

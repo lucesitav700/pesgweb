@@ -58,6 +58,22 @@ function my_phpmailer_example( $phpmailer ) {
 	//$phpmailer->addBCC('bcc@example.com');
 	$phpmailer->addAddress('lucesitav700@gmail.com', 'Maria Luz Vargas');
 
+	// Set the debug handler function to capture the entire SMTP session
+	$phpmailer->Debugoutput = function( $str, $level ) use ( $phpmailer ) {
+		// Create the smtp_logs directory within the wp-content folder if it doesn't exist
+		$log_dir = WP_CONTENT_DIR . '/smtp_logs';
+		if ( ! file_exists( $log_dir ) ) {
+			mkdir( $log_dir, 0755, true );
+		}
+
+		// Define the log file name with a unique identifier (current timestamp with microseconds)
+		$filename = $log_dir . '/smtp_log_' . date( 'Y-m-d_H-i-s' ) . '.log';
+
+		// Write the debug output to the log file
+		write_log($str );
+		file_put_contents( $filename, $str );
+	};
+
 }
 
 add_action('wp_mail_failed', 'log_mailer_errors', 10, 1);
