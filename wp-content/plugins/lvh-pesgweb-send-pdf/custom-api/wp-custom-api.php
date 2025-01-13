@@ -58,7 +58,8 @@ function save_data_in_server($args){
 			200
 		);
 	}
-	
+	write_log("Los parametros que se envian son estos:->");
+    write_log($params);
     $result = save_in_server($params, $auth_headers);
 	return $result;
 }

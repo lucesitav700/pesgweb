@@ -20,3 +20,84 @@
     [3] => C:\wamp64\www\pesgweb_a/wp-content/uploads/attachments/upload-files-temp_14d05e8a9967b7e4/luz4__20250110-001804.pdf
 )
 
+[10-Jan-2025 22:43:06 UTC] Automatic updates starting...
+[10-Jan-2025 22:43:09 UTC]   Automatic plugin updates starting...
+[10-Jan-2025 22:43:10 UTC]   Automatic plugin updates complete.
+[10-Jan-2025 22:43:11 UTC] Automatic updates complete.
+[10-Jan-2025 23:00:58 UTC] Los parametros que se envian son estos:->
+[10-Jan-2025 23:00:58 UTC] Array
+(
+    [rand_id_user] => 20250110-190049_nati
+    [rand_id_user_temp] => d1030c779ca24885
+    [company_name] => rewqrwr
+    [first_name] => rewrwerew
+    [last_name] => rwerwerwe
+    [main_phone] => 1231313
+    [ext] => 
+    [fax] => 
+    [email_address] => sdfd@gmail.com
+    [claimant_request] => 
+    [claimant_first_name] => 
+    [claimant_last_name] => 
+    [claimant_claimant_number] => 
+    [claimant_date_of_injury] => 
+    [claimant_icd_code] => 
+    [claimant_describe] => 
+    [claimant_working] => 
+    [claimant_occupation] => 
+    [claimant_date_of_birth] => 
+    [claimant_gender] => 
+    [claimant_home_phone] => 
+    [claimant_cell_phone] => 
+    [claimant_work_phone] => 
+    [claimant_ext] => 
+    [claimant_alternate_phone] => 
+    [claimant_alt_phone_description] => 
+    [claimant_email_adress] => 
+    [claimant_address_1] => 
+    [claimant_address_2] => 
+    [claimant_city] => 
+    [claimant_state] => 
+    [claimant_zip] => 
+    [claimant_preferred_language] => 
+    [employee_company] => 
+    [employee_phone_number] => 
+    [employee_contact] => 
+    [employee_address1] => 
+    [employee_address2] => 
+    [employee_city] => 
+    [employee_state] => 
+    [employee_zip] => 
+    [employee_working_hours] => 
+    [employee_date_of_injury] => 
+    [ref_doctor_first_name] => 
+    [ref_doctor_last_name] => 
+    [ref_doctor_practice_name] => 
+    [ref_doctor_phone_number] => 
+    [ref_doctor_email_adress] => 
+    [ref_doctor_fax] => 
+    [ref_doctor_adress_1] => 
+    [ref_doctor_adress_2] => 
+    [ref_doctor_city] => 
+    [ref_doctor_state] => 
+    [ref_doctor_zip] => 
+    [ref_doctor_patient_have_surgery_1] => 
+    [ref_doctor_surgery_date] => 
+    [ref_doctor_dx] => 
+    [ref_doctor_body_parts] => 
+    [ref_doctor_auth_visits] => 
+    [ref_doctor_freq_duration] => 
+    [ref_doctor_script] => 
+    [ref_doctor_follow_up_md] => 
+    [special_instructions] => Especial
+)
+
+[10-Jan-2025 23:00:58 UTC] pdf_file : 
+[10-Jan-2025 23:00:58 UTC] C:\wamp64\www\pesgweb_a/wp-content/uploads/send_pdf/new_web_claim_20250110-190049_nati.pdf
+[10-Jan-2025 23:00:58 UTC] array_attachment_file : 
+[10-Jan-2025 23:00:58 UTC] Array
+(
+    [0] => C:\wamp64\www\pesgweb_a/wp-content/uploads/send_pdf/new_web_claim_20250110-190049_nati.pdf
+    [1] => C:\wamp64\www\pesgweb_a/wp-content/uploads/attachments/upload-files-temp_d1030c779ca24885/20241230155215_20250102-141907_20250110-225939.pdf
+)
+

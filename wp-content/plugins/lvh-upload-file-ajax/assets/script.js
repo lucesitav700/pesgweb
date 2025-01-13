@@ -31,6 +31,8 @@
 		fd.append('action', 'dcms_ajax_add_file');
 		fd.append('nonce', dcmsUpload.nonce);
 		fd.append('rand_id_user', rand_id_user);
+		console.log("Cuando se suben los archivos el rand_id_user es:-->");
+		console.log(rand_id_user);
 
 		$.ajax({
 			url: dcmsUpload.ajaxurl,
@@ -46,6 +48,8 @@
 			success: function(res){
 				$('#message').text(res.message);
 				$('#rand_id_user_mm').val(res.rand_id_user_mm);
+				console.log("Este es res.rand_id_user_mm");
+				console.log(res.rand_id_user_mm);
 			}
 		});
 
